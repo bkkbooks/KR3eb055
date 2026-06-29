@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR3eb055/v1
+canonical_location: https://kanripo.org/bkk/KR3eb055/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 舌診問答
+  identifiers:
+    krp: KR3eb055
+  tags:
+    kr-categories: KR3eb
+    tls-dates: dat02200
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eb055.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eb055_000.yaml, hash: 'sha256:d323b156a201ee0435082936329d73cc632c04a1750b6ae26b9a7b5aeff9a3c5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eb055_000.markers.yaml, hash: 'sha256:3471d046a142ede509481957af37cbea73053ce6fbeb40d545b42c23cc8d36b1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eb055_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 166
+  label: 舌診提要五首
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eb055_jc_000-d3.h1s1
+    span:
+    - body
+    - 166
+    - 2108
+  label: 上篇
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eb055_jc_000-d4.h1s1
+    span:
+    - body
+    - 2108
+    - 4147
+  label: 下篇
+  type: section
+  level: 1
+hash: sha256:e72072c671da9ce5dd6df5b486b6f240525d40ff64f70d523c1df846f9d77c8d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
