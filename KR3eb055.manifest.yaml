@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR3eb055/v1
 canonical_location: https://kanripo.org/bkk/KR3eb055/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 舌診問答
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 0, filename: KR3eb055_000.yaml, hash: 'sha256:d813976dcf62cbb74b168193bb9b6184644709265fa0c5122df78896329139e6'}
+  - {seq: 0, filename: KR3eb055_000.yaml, hash: 'sha256:3dc548eee41a2528100157a8b17ec05e709d5d31e706aa47af9a5cfc467b1dc5'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR3eb055_000.markers.yaml, hash: 'sha256:3f244920d0935fe045bb57f2d734cd0778a2ad671005264663133ffdb558b0ef'}
+  - {seq: 0, role: markers, filename: assets/KR3eb055_000.markers.yaml, hash: 'sha256:7879993d21d2c1853ba6bc66c124a2bd284940b841bddc7ac21eb3c2b14337db'}
 table_of_contents:
 - ref:
     seq: 0
@@ -51,4 +51,7 @@ table_of_contents:
   label: 下篇
   type: section
   level: 1
-hash: sha256:2a2efbad2275239051a2f9c4f1b4b758170c597f74387fe3375ccba6bda79421
+hash: sha256:c2614ec3f2a4068b94480820e736dd3150d41be64a4fd4a3b21f2e8c5641c844
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
